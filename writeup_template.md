@@ -162,15 +162,15 @@ Confusion Matrix
 
 ![](https://github.com/emilkaram/Udacity-CarND-Traffic-Sign-Classifier-Project2/blob/master/images/prediction.png)
  
-The first image was "Right-of-way at the next intersection" and correctly prediction iwth 100% probabilty
-The second image was "Keep right" and correctly prediction iwth 100% probabilty
-The third image was "Turn left ahead" and was wongly predictied on the top and 2nd guess and got correct on 3rd guess with prob of 9%
-The forth image was "General caution" and correctly prediction iwth 100% probabilty
-the fith image was "Speed limit (60km/h)" and correctly prediction iwth 98% probabilty
-The fith image was "No entry"and correctly prediction iwth 100% probabilty
+#The first image was "Right-of-way at the next intersection" and correctly prediction iwth 100% probabilty
+#The second image was "Keep right" and correctly prediction iwth 100% probabilty
+#The third image was "Turn left ahead" and was wongly predictied on the top and 2nd guess and got correct on 3rd guess with prob of 9%
+#The forth image was "General caution" and correctly prediction iwth 100% probabilty
+#the fith image was "Speed limit (60km/h)" and correctly prediction iwth 98% probabilty
+#The fith image was "No entry"and correctly prediction iwth 100% probabilty
 
 ####Consultion
-The model works as expected with a good accuracy level
+#The model works as expected with a good accuracy level
 
 
  
