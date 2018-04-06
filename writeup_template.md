@@ -46,6 +46,7 @@ I used the numpy library to calculate summary statistics of the traffic signs da
 
 #### 2. An exploratory visualization of the dataset.
 
+##New test images:
 
 ![sample image1](https://github.com/emilkaram/Udacity-CarND-Traffic-Sign-Classifier-Project2/blob/master/mysamples/1.png)
 ![sample image2](https://github.com/emilkaram/Udacity-CarND-Traffic-Sign-Classifier-Project2/blob/master/mysamples/2.png)
