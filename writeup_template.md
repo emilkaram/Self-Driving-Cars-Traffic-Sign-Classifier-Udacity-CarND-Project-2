@@ -84,7 +84,7 @@ Here is a diagram and describition of the final model.
 
 #Pooling. The output shape = 5x5x48.
 
-#Flatten. Flatten the output shape =5x5x48 = 1200 of the final pooling layer such that it's 1D instead of 3D. The easiest way to do is by using tf.contrib.layers.flatten, which is already imported for you.
+#Flatten. Flatten the output shape =5x5x48 = 1200 of the final pooling layer (it's 1D instead of 3D)
 
 #Layer 3: Fully Connected. This should = 120 outputs.
 
