@@ -69,11 +69,32 @@ Here is a diagram and describition of the final model.
 
  ![final model](https://github.com/emilkaram/Udacity-CarND-Traffic-Sign-Classifier-Project2/blob/master/images/Modified_LeNet.png)
  
+###Implement the modfied LeNet neural network architecture.
+Input The modified LeNet architecture accepts a 32x32x3 image as input, where 3 is the number of color channels.
+Architecture Layer 1: Convolutional. The output shape = 28x28x18.
+Activation. activation function =RELU.
+Pooling. The output shape = 14x14x18.
+Layer 2: Convolutional. The output shape = 10x10x48.
+Activation. activation function =RELU.
+Pooling. The output shape = 5x5x48.
+Flatten. Flatten the output shape =5x5x48 = 1200 of the final pooling layer such that it's 1D instead of 3D. The easiest way to do is by using tf.contrib.layers.flatten, which is already imported for you.
+Layer 3: Fully Connected. This should = 120 outputs.
+Activation. activation function =RELU.
+Layer 4: Fully Connected = 84 outputs.
+Activation. activation function =RELU.
+Layer 5: Fully Connected (Logits)= 43 outputs (Classes).
+Output Return the result of the 2nd fully connected layer.
 
+#### 3. Describtion of how I trained my model:
+Type of optimizer used: AdamOptimizer
+The batch size =50 
+Number of epochs =30
+Learning rate =0.001
+Activation functions = RELU
+additional layers = maxpooling
+accuracy operation = reduce_mean
 
-#### 3. Describe how you trained your model. The discussion can include the type of optimizer, the batch size, number of epochs and any hyperparameters such as learning rate.
-
-To train the model, I used an ....
+ 
 
 #### 4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
 
