@@ -70,20 +70,34 @@ Here is a diagram and describition of the final model.
  ![final model](https://github.com/emilkaram/Udacity-CarND-Traffic-Sign-Classifier-Project2/blob/master/images/Modified_LeNet.png)
  
 ###Implement the modfied LeNet neural network architecture.
-Input The modified LeNet architecture accepts a 32x32x3 image as input, where 3 is the number of color channels.
-Architecture Layer 1: Convolutional. The output shape = 28x28x18.
-Activation. activation function =RELU.
-Pooling. The output shape = 14x14x18.
-Layer 2: Convolutional. The output shape = 10x10x48.
-Activation. activation function =RELU.
-Pooling. The output shape = 5x5x48.
-Flatten. Flatten the output shape =5x5x48 = 1200 of the final pooling layer such that it's 1D instead of 3D. The easiest way to do is by using tf.contrib.layers.flatten, which is already imported for you.
-Layer 3: Fully Connected. This should = 120 outputs.
-Activation. activation function =RELU.
-Layer 4: Fully Connected = 84 outputs.
-Activation. activation function =RELU.
-Layer 5: Fully Connected (Logits)= 43 outputs (Classes).
-Output Return the result of the 2nd fully connected layer.
+#Input The modified LeNet architecture accepts a 32x32x3 image as input, where 3 is the number of color channels.
+
+#Architecture Layer 1: Convolutional. The output shape = 28x28x18.
+
+#Activation. activation function =RELU.
+
+#Pooling. The output shape = 14x14x18.
+
+#Layer 2: Convolutional. The output shape = 10x10x48.
+
+#Activation. activation function =RELU.
+
+#Pooling. The output shape = 5x5x48.
+
+#Flatten. Flatten the output shape =5x5x48 = 1200 of the final pooling layer such that it's 1D instead of 3D. The easiest way to do is by using tf.contrib.layers.flatten, which is already imported for you.
+
+#Layer 3: Fully Connected. This should = 120 outputs.
+
+#Activation. activation function =RELU.
+
+#Layer 4: Fully Connected = 84 outputs.
+
+
+#Activation. activation function =RELU.
+
+#Layer 5: Fully Connected (Logits)= 43 outputs (Classes).
+
+#Output Return the result of the 2nd fully connected layer.
 
 #### 3. Describtion of how I trained my model:
 Type of optimizer used: AdamOptimizer
