@@ -117,12 +117,12 @@ If an iterative approach was chosen:
 
 ### Test a Model on New Images
 
-#### 1. Choose five German traffic signs found on the web and provide them in the report. For each image, discuss what quality or qualities might be difficult to classify.
+#### 1. Five new traffic signs found on the web and tested.
 
-Here are five German traffic signs that I found on the web:
+Here are five new traffic signs that I found on the web:
 
-![alt text][image4] ![alt text][image5] ![alt text][image6] 
-![alt text][image7] ![alt text][image8]
+![](https://github.com/emilkaram/Udacity-CarND-Traffic-Sign-Classifier-Project2/blob/master/images/test_samples.png)
+
 
 The first image might be difficult to classify because ...
 
