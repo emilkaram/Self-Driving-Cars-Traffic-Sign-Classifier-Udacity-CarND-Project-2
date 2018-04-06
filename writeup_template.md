@@ -42,7 +42,7 @@ You're reading it! and here is a link to my [project code](https://github.com/ud
 
 #### 1. Provide a basic summary of the data set. In the code, the analysis should be done using python, numpy and/or pandas methods rather than hardcoding results manually.
 
-I used the pandas library to calculate summary statistics of the traffic
+I used the numpy library to calculate summary statistics of the traffic
 signs data set:
 
 * The size of training set = 34799
@@ -55,6 +55,10 @@ signs data set:
 
 Here is an exploratory visualization of the data set. It is a bar chart showing how the data ...
 
+##Class label
+![Class label](https://github.com/emilkaram/Udacity-CarND-Traffic-Sign-Classifier-Project2/blob/master/images/classes.png)
+
+##Class Disribution
 ![Class Distribution](https://github.com/emilkaram/Udacity-CarND-Traffic-Sign-Classifier-Project2/blob/master/images/class%20dist.png)
 
 ### Design and Test a Model Architecture
