@@ -46,7 +46,8 @@ I used the numpy library to calculate summary statistics of the traffic signs da
 
 #### 2. An exploratory visualization of the dataset.
 
-Here is an exploratory visualization of the data set. It is a bar chart showing how the data ...
+Here is an exploratory visualization of the data set.
+Classes/lables table and bar chart showing how the data distribution for each unique class in the trian , validation and test datasets.
 
 ##Class label
 ![Class label](https://github.com/emilkaram/Udacity-CarND-Traffic-Sign-Classifier-Project2/blob/master/images/classes.png)
@@ -56,29 +57,17 @@ Here is an exploratory visualization of the data set. It is a bar chart showing 
 
 ### Design and Test a Model Architecture
 
-#### 1. Describe how you preprocessed the image data. What techniques were chosen and why did you choose these techniques? Consider including images showing the output of each preprocessing technique. Pre-processing refers to techniques such as converting to grayscale, normalization, etc. (OPTIONAL: As described in the "Stand Out Suggestions" part of the rubric, if you generated additional data for training, describe why you decided to generate additional data, how you generated the data, and provide example images of the additional data. Then describe the characteristics of the augmented training set like number of images in the set, number of images for each class, etc.)
+#### 1. Preprocessed the image data.
 
 As a first step, I decided to normiliaze the images to range 0 to 1 to have consistent range and easy to model.
 Then shuflle the trainging dataset
-
  
 
 
-#### 2. Describe what your final model architecture looks like including model type, layers, layer sizes, connectivity, etc.) Consider including a diagram and/or table describing the final model.
+#### 2. Final model architecture is a modified version of the LeNet model 
+Here is a diagram and describition of the final model.
 
-My final model consisted of the following layers:
-
-| Layer         		|     Description	        					| 
-|:---------------------:|:---------------------------------------------:| 
-| Input         		| 32x32x3 RGB image   							| 
-| Convolution 3x3     	| 1x1 stride, same padding, outputs 32x32x64 	|
-| RELU					|												|
-| Max pooling	      	| 2x2 stride,  outputs 16x16x64 				|
-| Convolution 3x3	    | etc.      									|
-| Fully connected		| etc.        									|
-| Softmax				| etc.        									|
-|						|												|
-|						|												|
+ ![final model](https://github.com/emilkaram/Udacity-CarND-Traffic-Sign-Classifier-Project2/blob/master/images/Modified_LeNet.png)
  
 
 
