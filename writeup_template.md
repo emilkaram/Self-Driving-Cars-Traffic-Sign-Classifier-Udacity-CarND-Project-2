@@ -55,7 +55,7 @@ signs data set:
 
 Here is an exploratory visualization of the data set. It is a bar chart showing how the data ...
 
-![alt text][image1]
+![Class Distribution](https://github.com/emilkaram/Udacity-CarND-Traffic-Sign-Classifier-Project2/blob/master/images/class%20dist.png)
 
 ### Design and Test a Model Architecture
 
