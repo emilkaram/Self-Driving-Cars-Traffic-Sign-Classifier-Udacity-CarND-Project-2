@@ -1,20 +1,3 @@
-Skip to content
-This repository
-Search
-Pull requests
-Issues
-Marketplace
-Explore
- @emilkaram
-Sign out
-0
-0 0 emilkaram/Udacity-CarND-Traffic-Sign-Classifier-Project2
- Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights  Settings
-Udacity-CarND-Traffic-Sign-Classifier-Project2/ 
-writeup_template.md
-  or cancel
-    
- 
 1
 # **Traffic Sign Recognition** 
 2
