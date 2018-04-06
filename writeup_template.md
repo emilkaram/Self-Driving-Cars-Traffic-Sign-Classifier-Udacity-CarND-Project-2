@@ -27,7 +27,7 @@ The goals / steps of this project are the following:
 ---
 ### Writeup / README
 
-#### 1. Introduction:
+#### 0. Introduction:
 This project is to build a traffic signal classifier using convolution neural network.
 The dataset from German Traffic sign. 
 
@@ -35,10 +35,8 @@ You're reading it! and here is a link to my [project code](https://github.com/em
 
 ### Data Set Summary & Exploration
 
-#### 1. Provide a basic summary of the data set. In the code, the analysis should be done using python, numpy and/or pandas methods rather than hardcoding results manually.
-
-I used the numpy library to calculate summary statistics of the traffic
-signs data set:
+#### 1. Basic summary of the data set.
+I used the numpy library to calculate summary statistics of the traffic signs data set:
 
 * The size of training set = 34799
 * The size of the validation set = 4410
@@ -46,7 +44,7 @@ signs data set:
 * The shape of a traffic sign image = (32, 32, 3)
 * The number of unique classes/labels in the data set = 43
 
-#### 2. Include an exploratory visualization of the dataset.
+#### 2. An exploratory visualization of the dataset.
 
 Here is an exploratory visualization of the data set. It is a bar chart showing how the data ...
 
