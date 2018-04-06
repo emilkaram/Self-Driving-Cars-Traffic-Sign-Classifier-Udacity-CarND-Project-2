@@ -2,7 +2,7 @@
 
 ## Writeup
 
-### This project is to build a traffic signal classifier using convolautiona neural network
+### This project is to build a traffic signal classifier using convolution neural network.
 ### The dataset from German Traffic sign. 
 
 **Build a Traffic Sign Recognition Project**
@@ -25,9 +25,11 @@ The goals / steps of this project are the following:
 ---
 ### Writeup / README
 
-#### 1. Provide a Writeup / README that includes all the rubric points and how you addressed each one. You can submit your writeup as markdown or pdf. You can use this template as a guide for writing the report. The submission includes the project code.
+#### 1. Introduction:
+This project is to build a traffic signal classifier using convolution neural network.
+The dataset from German Traffic sign. 
 
-You're reading it! and here is a link to my [project code](https://github.com/udacity/CarND-Traffic-Sign-Classifier-Project/blob/master/Traffic_Sign_Classifier.ipynb)
+You're reading it! and here is a link to my [project code](https://github.com/emilkaram/Udacity-CarND-Traffic-Sign-Classifier-Project2/blob/master/Traffic_Sign_Classifier%20-emil8.ipynb)
 
 ### Data Set Summary & Exploration
 
